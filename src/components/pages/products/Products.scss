@@ -1,0 +1,103 @@
+.solution-first-section {
+  height: 100vh;
+}
+.menu-device-support-wrapper {
+  border-radius: 15px;
+}
+.solution-banner-img {
+  position: relative;
+  right: -50px;
+}
+.benefits-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 20px;
+}
+.benefits-bg {
+  background-image: url(../../../assets/img/benefits-bg.png);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 79%;
+  top: 0;
+  z-index: -1;
+  border-radius: 15px;
+  box-shadow: rgb(125 99 236 / 0%) 0px 4px 16px,
+    rgb(125 99 236 / 48%) 0px 8px 32px;
+}
+.solutions-benefits-wrapper {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 85%;
+  .benefit-item {
+    padding: 10px;
+  }
+}
+.perc-title {
+  font-family: "Red Hat Bold", sans-serif;
+  font-size: 46px;
+  margin-bottom: 3px;
+}
+.custom-values-card {
+  position: relative;
+  top: 50px;
+}
+
+@media screen and (max-width: 992px) {
+  .solution-banner-img {
+    position: static;
+  }
+  .solution-first-section {
+    margin-top: 50px;
+  }
+  .benefits-section-wrapper {
+    padding-top: 0px;
+  }
+  .benefits-bg {
+    background: none;
+    box-shadow: none;
+  }
+  .benefits-bg-mobile {
+    background-image: url(../../../assets/img/benefits-bg-mobile.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 65%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+  }
+  .solutions-benefits-wrapper {
+    padding: 20px;
+    width: 100%;
+  }
+  .perc-title {
+    font-family: "Red Hat bold";
+    font-size: 32px;
+    margin-bottom: 3px;
+  }
+  .values-cards-wrapper {
+    .collection-sales-card {
+      padding: 10px 2px 0 2px;
+      img {
+        width: 65%;
+      }
+      h5 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .custom-values-card {
+    position: static;
+  }
+}

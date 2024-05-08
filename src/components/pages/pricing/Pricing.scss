@@ -1,0 +1,141 @@
+.switch-input-wrapper {
+  .form-switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .form-check-input {
+      background-color: #7d63ec;
+      border-color: #7d63ec;
+      height: 21px;
+      width: 36px;
+      margin-bottom: 4px;
+      cursor: pointer;
+    }
+    .form-check-input:focus {
+      box-shadow: none;
+      //   background-image: url(../../../assets/img/switch.png);
+    }
+  }
+}
+.save-offer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 20px;
+  }
+  .text {
+    background-image: linear-gradient(90deg, #ff647c 0%, #ffacb8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.plan-card {
+  padding: 25px 35px;
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  .title {
+    font-size: 28px;
+  }
+  .card-list-text {
+    font-size: 15px;
+    font-family: "Red Hat Semi-bold", sans-serif;
+  }
+  .card-list-text2 {
+    font-size: 15px;
+    font-family: "Red Hat Semi-bold", sans-serif;
+    color: #666666;
+  }
+}
+.no-of-users-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .counter-wrapper {
+    // padding: 3px 4px;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-wrapper {
+    user-select: none;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  .br {
+    border-right: 1px solid lightgrey;
+  }
+  .bl {
+    border-left: 1px solid lightgrey;
+  }
+}
+.border-purple {
+  border: 1px solid #a894ff;
+}
+.plans-table-titles {
+  font-size: 17px;
+}
+.plans-list-wrapper {
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  border-radius: 10px;
+
+  .list-item {
+    border-bottom: 1px solid rgb(102 102 102 / 13%);
+    padding: 15px 0;
+
+    .text-grey3 {
+      font-size: 15px;
+    }
+  }
+}
+.pricing-2-cards-card {
+  min-height: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  .custom-bg-incard {
+    position: absolute;
+    width: 100%;
+    height: 121%;
+    top: -40px;
+    z-index: -1;
+    border-radius: 15px;
+    box-shadow: rgba(124, 99, 236, 0.0941176471) 0px -35px 92px;
+  }
+}
+.pricing-values-card {
+  height: 100%;
+  position: relative;
+  .card-white-bg {
+    position: absolute;
+    width: 100%;
+    height: 77%;
+    bottom: 0px;
+    z-index: -1;
+    border-radius: 15px;
+    // box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    //   rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    box-shadow: #7c63ec18 0px -51px 92px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .plans-table-title {
+    font-size: 16px;
+  }
+  .plans-table-titles {
+    font-size: 13px;
+  }
+  .plans-list-wrapper {
+    .list-item {
+      .text-grey3 {
+        font-size: 15px;
+      }
+    }
+  }
+}

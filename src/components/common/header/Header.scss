@@ -1,0 +1,121 @@
+header {
+  //   background-color: purple;
+  height: 88px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 999;
+
+  .header-logo {
+    // width: 100px;
+  }
+  .header-components {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .header-component-item {
+      margin-left: 30px;
+    }
+  }
+  .header-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    a {
+      text-decoration: none;
+    }
+
+    .item {
+      margin: 0 15px;
+      cursor: pointer;
+      color: #ffffff;
+    }
+  }
+  .header-items.homepage-header-items {
+    .item {
+      color: #a6a2b6;
+    }
+  }
+  .talk-to-sales-wrapper {
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+  }
+}
+
+header {
+  .homepage {
+    .header-items {
+      .item.active {
+        color: #ffffff !important;
+        opacity: 1;
+        font-weight: bold;
+      }
+    }
+  }
+  .item.active {
+    color: #5b5769 !important;
+    opacity: 1;
+    font-weight: bold;
+  }
+}
+.custom-header {
+  transition: 0.3s;
+}
+.header-menu-offcanvas {
+  width: 77% !important;
+  max-width: 350px !important;
+  border-radius: 20px 0 0 20px;
+  z-index: 9999 !important;
+
+  .header-offcanvas-body-wrappper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+  }
+  .header-menu-offcanvaslist {
+    width: 100%;
+    a {
+      text-decoration: none;
+    }
+    .list-item {
+      font-size: 18px;
+      padding: 10px 0;
+      margin-bottom: 10px;
+      color: #494949;
+      border-bottom: 1px solid #e6e8f0;
+    }
+  }
+  .list-item.active {
+    color: #5b5769;
+    font-family: "Red Hat Bold", sans-serif;
+  }
+}
+.custom-bg-header {
+  transition: 0.1s;
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.custom-bg-header.homepage {
+  background-color: rgba(0, 0, 0, 0.349);
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    .logo-wrapper {
+      svg {
+        width: 85%;
+      }
+    }
+
+    .header-components {
+      .header-component-item {
+        margin-left: 10px;
+      }
+    }
+  }
+}

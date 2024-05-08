@@ -1,0 +1,183 @@
+.custom-nav-tabs {
+}
+.custom-tab-wrapper {
+  // box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  transition: 1s;
+  .custom-tab-list {
+    min-width: 400px;
+    width: 40%;
+    background-color: #1e1b26;
+    padding: 45px 35px 20px 20px;
+    border-radius: 45px 0 0 45px;
+
+    .custom-tab-item {
+      position: relative;
+      width: 290px;
+      cursor: pointer;
+      border-radius: 45px;
+      padding: 11px 11px 11px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 25px;
+
+      .item {
+        display: flex;
+        align-items: center;
+      }
+
+      .title {
+        white-space: nowrap;
+        margin-left: 15px;
+        color: #ffffff;
+        opacity: 0.6;
+      }
+    }
+    // .custom-tab-item:hover {
+    //   .title {
+    //     opacity: 1;
+    //   }
+    // }
+    .custom-tab-item.active {
+      background-color: #7d63ec;
+      .title {
+        opacity: 1;
+        font-family: "Red Hat Semi-bold", sans-serif;
+      }
+    }
+  }
+
+  .custom-tab-content {
+    background-image: url(../../../../assets/img/tab-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    padding-left: 70px;
+    margin-left: -150px;
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 45px;
+  }
+}
+.custom-tab-content-container {
+  h4 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .tab-content {
+    color: #4a4a4a;
+    font-family: "Red Hat Semi-bold", sans-serif;
+  }
+  img {
+    width: 100%;
+    margin: auto;
+  }
+
+  .tab-item-list-text {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .custom-tab-wrapper {
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .custom-tab-list {
+      overflow: auto;
+      display: flex;
+      align-items: start;
+      width: 100%;
+      padding: 20px 10px 20px 10px;
+      border-radius: 16px 16px 0 0;
+      min-width: auto;
+
+      .custom-tab-item {
+        border-radius: 13px;
+        flex-direction: column;
+        width: fit-content;
+        padding: 11px 20px 0px 20px;
+        margin: 0;
+        height: 53px;
+
+        .title {
+          letter-spacing: 0.5px;
+          margin-left: 10px;
+        }
+      }
+
+      // .custom-tab-item:hover {
+      //   .title {
+      //     opacity: 0.6;
+      //   }
+      // }
+
+      .active {
+        z-index: 99;
+      }
+    }
+    .custom-tab-list::-webkit-scrollbar {
+      display: none;
+    }
+    .custom-tab-content {
+      padding: 40px 20px;
+      margin: 0;
+      margin-top: -24px;
+      width: 100%;
+      border-radius: 16px;
+      z-index: 9;
+    }
+  }
+  .right-arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    margin-top: -5px;
+    background-color: #7d63ec;
+    border-radius: 50%;
+    padding: 4px;
+    position: relative; /* Establishes relative positioning context for ::before and ::after */
+    bottom: -8px;
+  }
+  .right-arrow-wrapper svg {
+    width: 100px;
+    transform: rotate(90deg); /* Rotates the SVG */
+  }
+  .right-arrow-wrapper::before {
+    background-image: url(../../../../assets/img/triangle-before.png); /* Corrected order */
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 13px;
+    right: 31.5px;
+    z-index: 1;
+    transform: rotate(-186deg);
+  }
+  .right-arrow-wrapper::after {
+    background-image: url(../../../../assets/img/triangle-after.png);
+    content: "";
+    width: 11px;
+    height: 11px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 14px;
+    right: -9px;
+    transform: rotate(-89deg);
+    z-index: 1;
+  }
+}
