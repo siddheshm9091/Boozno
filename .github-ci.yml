@@ -1,0 +1,7 @@
+QAbuild_JAVA_job:
+  stage: QAbuild_JAVA
+  only:
+    - main
+  script:
+    - build.sh
+
