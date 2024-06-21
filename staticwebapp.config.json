@@ -6,7 +6,6 @@
   "globalHeaders": {
     "X-Frame-Options": "SAMEORIGIN",
     "Referrer-Policy": "no-referrer",
-    "Permissions-Policy": "geolocation=()",
-    "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https://booznostaticwebsitecdnendpoint.azureedge.net; form-action 'self'"
+    "Permissions-Policy": "geolocation=()"
   }
 }
