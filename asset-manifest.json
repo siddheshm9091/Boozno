@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f61cd9ab.css",
-    "main.js": "/static/js/main.c91c5f43.js",
+    "main.css": "/static/css/main.e3e662e7.css",
+    "main.js": "/static/js/main.4e934a4d.js",
     "static/media/DesktopAnimation.mp4": "/static/media/DesktopAnimation.9c6ace2bb115a7b55bc4.mp4",
     "static/media/MobileAnimation.mp4": "/static/media/MobileAnimation.06cc5ca4e5a8b2d900ba.mp4",
     "static/media/better.png": "/static/media/better.d8d8d8689ce672ac746d.png",
     "static/media/solution-page-banner-img1.png": "/static/media/solution-page-banner-img1.9b2072054185a72e3cb9.png",
     "static/media/better-mobile.png": "/static/media/better-mobile.712b4ce432b9b0a1fb9b.png",
-    "static/media/view-plans-img.png": "/static/media/view-plans-img.6b9b889bd1f6665a9e2f.png",
     "static/media/privacy-img.svg": "/static/media/privacy-img.974c4590f967e3ed2fc33dc09fa0343e.svg",
     "static/media/ready-img.png": "/static/media/ready-img.1b1a9ab5a3418e26a3b7.png",
     "static/media/prod-story-img.png": "/static/media/prod-story-img.369821eceb15ad746362.png",
     "static/media/Lato-SemiBold.ttf": "/static/media/Lato-SemiBold.505e1361b69ab525b4e7.ttf",
     "static/media/menu-device-img.png": "/static/media/menu-device-img.26df9e4e810371a5b63e.png",
     "static/media/prod-story-img-mobile.png": "/static/media/prod-story-img-mobile.598fdcae1b5310bf1789.png",
-    "static/media/Home.png": "/static/media/Home.6121a42b199a037eb143.png",
     "static/media/ManagementTools.png": "/static/media/ManagementTools.4b642d8b4f9a8636de0a.png",
     "static/media/Inquiries.png": "/static/media/Inquiries.c572a567e540f1b519c7.png",
     "static/media/Calender.png": "/static/media/Calender.8cc22c825fde97262e69.png",
@@ -24,7 +22,6 @@
     "static/media/privacy-mobile-bg.png": "/static/media/privacy-mobile-bg.5e139c0341d472b92969.png",
     "static/media/tab-img-1.png": "/static/media/tab-img-1.addbb353dd047e42446b.png",
     "static/media/journey-stepper-mobile.png": "/static/media/journey-stepper-mobile.8f9a7235197895f0f238.png",
-    "static/media/forms-bg.png": "/static/media/forms-bg.f618c5107a517f5ecb0b.png",
     "static/media/galaxy-img.svg": "/static/media/galaxy-img.bc1a65e0601f527b393e545d1ace56cb.svg",
     "static/media/Lato-Light.ttf": "/static/media/Lato-Light.c7400fcad9e48ca9043f.ttf",
     "static/media/Lato-Italic.ttf": "/static/media/Lato-Italic.a9f3ee269217f44df65f.ttf",
@@ -45,7 +42,6 @@
     "static/media/sales-tools-5.svg": "/static/media/sales-tools-5.4c9af022b5e2ed905625d8b70e5497b9.svg",
     "static/media/multi-bg-img.png": "/static/media/multi-bg-img.164ae5dea37d434d2a30.png",
     "static/media/benefits-bg-mobile.png": "/static/media/benefits-bg-mobile.0849730b87fa49398f60.png",
-    "static/media/pruple-strip.png": "/static/media/pruple-strip.9f87d5c9136a282abf68.png",
     "static/media/sales-tools-4.svg": "/static/media/sales-tools-4.be30b995e106c072b1fdf8140e9ae965.svg",
     "static/media/modal-img.svg": "/static/media/modal-img.c2519d8d2e588c3fa4ac4663954a09c3.svg",
     "static/media/instagram.png": "/static/media/instagram.5c1696dd0716b136bc74.png",
@@ -61,15 +57,15 @@
     "static/media/d-support.svg": "/static/media/d-support.312ab1b93fba17dc27cbbeade6fb5bdd.svg",
     "static/media/every-step3.svg": "/static/media/every-step3.aef7d3d1d865f40bb5402352da1a92e4.svg",
     "static/media/sales-tools-3.svg": "/static/media/sales-tools-3.f73ab67802b446d7fba7fe0162d2fd19.svg",
-    "static/media/green-tick-icon.svg": "/static/media/green-tick-icon.171c53985929fe335a7ce48deda32b2a.svg",
     "index.html": "/index.html",
+    "static/media/green-tick-icon.svg": "/static/media/green-tick-icon.171c53985929fe335a7ce48deda32b2a.svg",
     "static/media/cross-icon.svg": "/static/media/cross-icon.769f28ac1c8d6212c6fd.svg",
     "static/media/white-circle.svg": "/static/media/white-circle.215f8ced19c13e0059ee.svg",
-    "main.f61cd9ab.css.map": "/static/css/main.f61cd9ab.css.map",
-    "main.c91c5f43.js.map": "/static/js/main.c91c5f43.js.map"
+    "main.e3e662e7.css.map": "/static/css/main.e3e662e7.css.map",
+    "main.4e934a4d.js.map": "/static/js/main.4e934a4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f61cd9ab.css",
-    "static/js/main.c91c5f43.js"
+    "static/css/main.e3e662e7.css",
+    "static/js/main.4e934a4d.js"
   ]
 }
