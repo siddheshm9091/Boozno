@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.41fc9a44.css",
-    "main.js": "/static/js/main.0570cd0d.js",
+    "main.js": "/static/js/main.709e9ce6.js",
     "static/media/DesktopAnimation.mp4": "/static/media/DesktopAnimation.9c6ace2bb115a7b55bc4.mp4",
     "static/media/MobileAnimation.mp4": "/static/media/MobileAnimation.06cc5ca4e5a8b2d900ba.mp4",
     "static/media/better.png": "/static/media/better.d8d8d8689ce672ac746d.png",
@@ -57,15 +57,15 @@
     "static/media/d-support.svg": "/static/media/d-support.312ab1b93fba17dc27cbbeade6fb5bdd.svg",
     "static/media/every-step3.svg": "/static/media/every-step3.aef7d3d1d865f40bb5402352da1a92e4.svg",
     "static/media/sales-tools-3.svg": "/static/media/sales-tools-3.f73ab67802b446d7fba7fe0162d2fd19.svg",
-    "index.html": "/index.html",
     "static/media/green-tick-icon.svg": "/static/media/green-tick-icon.171c53985929fe335a7ce48deda32b2a.svg",
+    "index.html": "/index.html",
     "static/media/cross-icon.svg": "/static/media/cross-icon.769f28ac1c8d6212c6fd.svg",
     "static/media/white-circle.svg": "/static/media/white-circle.215f8ced19c13e0059ee.svg",
     "main.41fc9a44.css.map": "/static/css/main.41fc9a44.css.map",
-    "main.0570cd0d.js.map": "/static/js/main.0570cd0d.js.map"
+    "main.709e9ce6.js.map": "/static/js/main.709e9ce6.js.map"
   },
   "entrypoints": [
     "static/css/main.41fc9a44.css",
-    "static/js/main.0570cd0d.js"
+    "static/js/main.709e9ce6.js"
   ]
 }
