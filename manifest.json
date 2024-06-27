@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Boozno",
+  "name": "Boozno | Venue Management Software",
   "icons": [
     {
       "src": "boozno-logo-b.png",
@@ -8,13 +8,13 @@
       "type": "image/png"
     },
     {
-      "src": "touch-logo.jpeg",
-      "type": "image/jpeg",
+      "src": "touch-logo.png",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "touch-logo.jpeg",
-      "type": "image/jpeg",
+      "src": "touch-logo.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
