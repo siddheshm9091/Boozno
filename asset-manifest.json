@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.41fc9a44.css",
-    "main.js": "/static/js/main.f16e43cc.js",
+    "main.js": "/static/js/main.6f9253f4.js",
     "static/media/DesktopAnimation.mp4": "/static/media/DesktopAnimation.9c6ace2bb115a7b55bc4.mp4",
     "static/media/MobileAnimation.mp4": "/static/media/MobileAnimation.06cc5ca4e5a8b2d900ba.mp4",
     "static/media/better.png": "/static/media/better.d8d8d8689ce672ac746d.png",
     "static/media/solution-page-banner-img1.png": "/static/media/solution-page-banner-img1.9b2072054185a72e3cb9.png",
     "static/media/better-mobile.png": "/static/media/better-mobile.712b4ce432b9b0a1fb9b.png",
     "static/media/privacy-img.svg": "/static/media/privacy-img.974c4590f967e3ed2fc33dc09fa0343e.svg",
-    "static/media/ready-img.png": "/static/media/ready-img.1b1a9ab5a3418e26a3b7.png",
     "static/media/prod-story-img.png": "/static/media/prod-story-img.369821eceb15ad746362.png",
     "static/media/Lato-SemiBold.ttf": "/static/media/Lato-SemiBold.505e1361b69ab525b4e7.ttf",
     "static/media/menu-device-img.png": "/static/media/menu-device-img.26df9e4e810371a5b63e.png",
@@ -19,6 +18,7 @@
     "static/media/Security.png": "/static/media/Security.3d7d8e0954fe6b73853a.png",
     "static/media/Booking.png": "/static/media/Booking.757e33343939914b8632.png",
     "static/media/Onboarding.png": "/static/media/Onboarding.e72fcc2b0b0c07eb0821.png",
+    "static/media/ready-img1.png": "/static/media/ready-img1.c7f224bda565c11f3cf5.png",
     "static/media/privacy-mobile-bg.png": "/static/media/privacy-mobile-bg.5e139c0341d472b92969.png",
     "static/media/tab-img-1.png": "/static/media/tab-img-1.addbb353dd047e42446b.png",
     "static/media/journey-stepper-mobile.png": "/static/media/journey-stepper-mobile.8f9a7235197895f0f238.png",
@@ -62,10 +62,10 @@
     "static/media/cross-icon.svg": "/static/media/cross-icon.769f28ac1c8d6212c6fd.svg",
     "static/media/white-circle.svg": "/static/media/white-circle.215f8ced19c13e0059ee.svg",
     "main.41fc9a44.css.map": "/static/css/main.41fc9a44.css.map",
-    "main.f16e43cc.js.map": "/static/js/main.f16e43cc.js.map"
+    "main.6f9253f4.js.map": "/static/js/main.6f9253f4.js.map"
   },
   "entrypoints": [
     "static/css/main.41fc9a44.css",
-    "static/js/main.f16e43cc.js"
+    "static/js/main.6f9253f4.js"
   ]
 }
